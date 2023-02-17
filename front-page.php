@@ -13,16 +13,19 @@
 <title><?php echo get_bloginfo( 'name' );?></title>
     </head>
     <body>
+        <header>
         <nav>
+        <img src="https://koombackoffice.rezoloco.com/images/cooperatives/5fcdf65ca56d2.png">
             <ul>
-                <li><img src="https://koombackoffice.rezoloco.com/images/cooperatives/5fcdf65ca56d2.png"></li>
                 <li>Accueil</li>
                 <li>A propos</li>
                 <li>Mes Projets</li>
                 <li>Me Contacter</li>
             </ul>        
         </nav>
-        <section id="title">
+</header>
+<main>
+     <section id="title">
             <h1>YEPFOLIO</h1>
             <h2>DEVELOPPEMENT WEB & MOBILE</h2>
         </section>
@@ -61,6 +64,8 @@
                 </article></li>
             </ul>
          </section>
+         </main>
+         <footer>
          <section id="contact">
             <h2>ME CONTACTER</h2>
             <form>
@@ -81,6 +86,7 @@
                 </fieldset>
             </form>
          </section>
+</footer>
         <?php wp_footer(); ?>
     </body>
 </html>
