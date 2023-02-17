@@ -1,0 +1,21 @@
+body {
+  height: 100vw;
+  width: 100vw;
+}
+body nav {
+  height: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2fr);
+}
+body nav img {
+  height: 100px;
+  width: 150px;
+}
+body nav ul {
+  display: flex;
+}
+body nav ul li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
