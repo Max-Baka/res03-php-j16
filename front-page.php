@@ -15,8 +15,9 @@
     <body>
         <header>
         <nav>
-        <img src="https://koombackoffice.rezoloco.com/images/cooperatives/5fcdf65ca56d2.png">
+        
             <ul>
+                <li id="img"><img src="https://koombackoffice.rezoloco.com/images/cooperatives/5fcdf65ca56d2.png"></li>
                 <li>Accueil</li>
                 <li>A propos</li>
                 <li>Mes Projets</li>
@@ -41,6 +42,7 @@
             </article>
         </section>
         <section id="articles">
+            <h2>MES DERNIERS PROJETS</h2>
             <ul>
                 <li><article>
                     <h3>Application santé</h3>
