@@ -44,30 +44,30 @@
         <section id="articles">
             <h2>MES DERNIERS PROJETS</h2>
             <ul>
-                <li><article>
+                <article id="art1">
                     <h3>Application santé</h3>
                     <p>Pharmacie de Maurepas</p>
-                </article></li>
-                <li><article>
+                </article>
+                <article id="art2">
                     <h3>Site E-commerce</h3>
                     <p>Librairie l'écume des jours</p>
-                </article></li>
-                <li><article>
+                </article>
+                <article id="art3">
                     <h3>Site vitrine</h3>
                     <p>Bonlangerie Galetier</p>
-                </article></li>
-                <li><article>
+                </article>
+                <article id="art4">
                     <h3>Site Institutionnel</h3>
                     <p>Mairie de Ploutruc</p>
-                </article></li>
-                <li><article>
+                </article>
+                <article id="art5">
                     <h3>Site Promotionnel</h3>
                     <p>Festival des choses</p>
-                </article></li>
+                </article>
             </ul>
          </section>
-         </main>
-         <footer>
+        </main>
+    <footer>
          <section id="contact">
             <h2>ME CONTACTER</h2>
             <form>
@@ -83,9 +83,9 @@
                     <label for="name">Message</label>
                     <input type="text" id="text" name="text">
                 </fieldset>
-                <fieldset>
+               
                     <imput type="submit" value="envoyer">
-                </fieldset>
+                
             </form>
          </section>
 </footer>
