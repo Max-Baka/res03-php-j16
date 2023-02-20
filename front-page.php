@@ -1,3 +1,7 @@
+<?php  
+    $menuItems = getNavigationMenu();  
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -14,6 +18,7 @@
     </head>
     <body>
         <header>
+            
         <nav>
         
             <ul>
@@ -74,17 +79,18 @@
                 <fieldset>
                     <label for="name">Prénom + Nom *</label>
                     <input type="text" id="name" name="user_name">
-                </fieldset>
-                <fieldset>
+                
                     <label for="name">Email*</label>
                     <input type="email" id="email" name="email">
-                </fieldset>
-                <fieldset>
+                
                     <label for="name">Message</label>
                     <input type="text" id="text" name="text">
+              
+                    <input type="submit" value="envoyer">
                 </fieldset>
                
-                    <imput type="submit" value="envoyer">
+               
+                    
                 
             </form>
          </section>

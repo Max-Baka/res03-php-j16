@@ -151,17 +151,27 @@ body main #articles ul article h3 {
 body footer {
   background-color: blueviolet;
 }
-body footer #contact h2 {
+body footer h2 {
   color: white;
   text-align: center;
   padding-top: 2vh;
 }
-body footer #contact form {
+body footer form {
   padding-top: 5vh;
   text-align: center;
 }
-body footer #contact form fieldset {
+body footer form fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-style: none;
+}
+body footer form fieldset label {
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+body footer form fieldset input {
+  padding-top: 2px;
 }
 
 /*# sourceMappingURL=style.css.map */

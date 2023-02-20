@@ -161,7 +161,6 @@ main{
 }
 footer{
     background-color: blueviolet;
-        #contact{
             h2{
                 color: white;
                 text-align: center;
@@ -170,13 +169,20 @@ footer{
             form{
                 padding-top: 5vh;
                 text-align: center;
+                
                 fieldset{
+                    display: flex;
+                flex-direction: column;
+                align-items: center;
                     border-style: none;
-                    label{}
-                    input{}
+                    label{ 
+                        padding-top: 15px;
+                        padding-bottom: 4px;
+                        }
+                    input{
+                        padding-top: 2px;
+                    }
                 }
-
-            }
         }
     }
 }
